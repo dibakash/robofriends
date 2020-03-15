@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/robofriends/static/css/main.260ded28.chunk.css",
+    "main.js": "/robofriends/static/js/main.f6c46026.chunk.js",
+    "main.js.map": "/robofriends/static/js/main.f6c46026.chunk.js.map",
+    "runtime-main.js": "/robofriends/static/js/runtime-main.5530ba65.js",
+    "runtime-main.js.map": "/robofriends/static/js/runtime-main.5530ba65.js.map",
+    "static/js/2.7ab315b8.chunk.js": "/robofriends/static/js/2.7ab315b8.chunk.js",
+    "static/js/2.7ab315b8.chunk.js.map": "/robofriends/static/js/2.7ab315b8.chunk.js.map",
+    "index.html": "/robofriends/index.html",
+    "precache-manifest.6c6027ea1d446192704fbfcd7bb417ee.js": "/robofriends/precache-manifest.6c6027ea1d446192704fbfcd7bb417ee.js",
+    "service-worker.js": "/robofriends/service-worker.js",
+    "static/css/main.260ded28.chunk.css.map": "/robofriends/static/css/main.260ded28.chunk.css.map",
+    "static/js/2.7ab315b8.chunk.js.LICENSE.txt": "/robofriends/static/js/2.7ab315b8.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/robofriends/static/media/Righteous-Regular.77fa0099.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5530ba65.js",
+    "static/js/2.7ab315b8.chunk.js",
+    "static/css/main.260ded28.chunk.css",
+    "static/js/main.f6c46026.chunk.js"
+  ]
+}
