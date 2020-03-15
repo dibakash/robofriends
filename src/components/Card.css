@@ -1,0 +1,65 @@
+.robo-cards {
+  display: grid;
+  background: linear-gradient(45deg, purple, blue);
+  width: 200px;
+  height: 100%;
+  color: white;
+  justify-items: center;
+  text-align: center;
+  border-radius: 1em;
+  box-shadow: rgb(46, 38, 38) 0.3em 0.3em 0.3em;
+  transition: 300ms;
+  position: relative;
+  font-size: 1em;
+  padding: 1.2em;
+}
+.robo-cards:hover {
+  transform: scale(1.05);
+}
+
+.robo-cards img {
+  width: 50%;
+}
+.robo-cards:hover:after {
+  content: "";
+  border-top: double 0.3em rgba(255, 255, 255, 0.705);
+  border-bottom: double 0.3em rgba(255, 255, 255, 0.705);
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  place-self: center;
+  transform: scale(1, 0.9);
+  transition-duration: 369ms;
+}
+
+.robo-cards:after {
+  content: "";
+  transition-duration: 369ms;
+  transform: scale(0, 0);
+  border-top: solid 0.11em white;
+  border-bottom: solid 0.11em white;
+  align-self: center;
+  z-index: 2;
+}
+.robo-cards:hover:before {
+  content: "";
+  border-right: double 0.3em rgba(255, 255, 255, 0.705);
+  border-left: double 0.3em rgba(255, 255, 255, 0.705);
+  position: absolute;
+  place-self: center;
+  transform: scale(0.9, 1);
+  position: absolute;
+}
+
+.robo-cards:before {
+  content: "";
+  width: 90%;
+  height: 90%;
+  transition-duration: 369ms;
+  transform: scale(0, 0);
+  border-left: solid 0.11em white;
+  border-right: solid 0.11em white;
+  position: absolute;
+  align-self: center;
+  z-index: 2;
+}

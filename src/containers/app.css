@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Righteous"), local("Righteous-Regular"),
+    url(Righteous-Regular.ttf) format("woff2");
+}
+
+.heading {
+  display: grid;
+  place-items: center;
+}
+
+.heading h1 {
+  font-family: "Righteous", cursive;
+  font-size: 3em;
+  color: white;
+}
+
+.loading {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  color: white;
+  animation: load 0.6s infinite linear;
+}
+
+@keyframes load {
+  form {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
